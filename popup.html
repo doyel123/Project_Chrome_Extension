@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Narrator Extension Popup</title>
+	<style type="text/css">
+	#D1{
+		width: auto;
+		background-color:black;  
+	    text-align:center;
+	}
+		button {
+			padding: 0px;
+			border: 1px solid rgb(200,200,200);
+			-webkit-border-radius: 5px;
+			-webkit-appearance: button;
+			-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+		}
+		button img {
+			vertical-align: bottom;
+		}
+		
+		#advancedlink {
+			font-family:'Courier New', Courier, monospace;
+			font-size: 10px;
+			font-weight: bolder;
+			color: red;
+		}
+		
+		#advancedsection {
+			display: none;
+		}
+		#testbutton{
+			color :white;
+			font-family:'Courier New', Courier, monospace;
+			font-weight: bolder;
+			border: 5px ,inset,white;
+			background-color: red;
+		}
+		#testText{
+			background-color:chartreuse;
+			color:black;
+			font-family:'Courier New', Courier, monospace;
+			font-weight: bolder;
+			
+		}
+		
+	</style>
+
+    <script src="narrate.js"></script>
+	<script src="popup.js"></script>
+  </head>
+  <body id="D1">
+	<button id="narrate"><img src="img/speak32.png" title="Speak" alt="Speak"></button>
+	<button id="stop"><img src="img/stop32.png" title="Stop" alt="Stop"></button>
+	<button id="pauseresume"><img id="pauseresume_img" src="img/pause32.png" title="Pause/Resume" alt="Pause/Resume"></button>
+	<div>
+		<a id="advancedlink" href="#">TEXT HERE</a>
+	</div>
+	<div id="advancedsection">
+		<hr>
+		Sample Text
+		<textarea rows="5" cols="30" id="testText">Hello! I am Doyel Bhowmik, & This is the sample text for testing. You can write or paste any text here.</textarea>
+		<button id="testbutton"><div style="padding:5px">Test</div></button>
+	</div>
+  </body>
+</html>
+
