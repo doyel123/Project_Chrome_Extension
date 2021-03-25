@@ -11,7 +11,7 @@ And there is a option "TEXT HERE", by clicking this option you can find one text
 **====================**
 
 1. Open the **link** given below.
-    **
+    *https://github.com/doyel123/Project_Chrome_Extension.git*
 2. Then click on ***Code*** below there click on ***Download ZIP***.
     It will download a zipe file.
 3. ***Extract*** that ZIP in a specific folder.
